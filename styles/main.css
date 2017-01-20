@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.logo h1 {
+	font-weight: normal;
+	color: black;
+  	font-size: 20px;
+}
+
+header nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0px;
+}
+
+header nav a {
+	color: purple;
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+main {
+	padding: 80px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input {
+	height: 30px;
+	border-radius: 4px;
+	padding-left: 10px;
+	width: 40%;
+	border: 1px solid #DDDDDD;
+	font-size: 17px;
+}
+
+.search-button {
+	position: absolute;
+	margin-left: 5px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+}
+
+.icon {
+	height: 100%;
+}
+
+.nav-pages {
+	margin-top: 30px;
+	display: inline-block;
+	font-size: 15px;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.nav-button, .nav-count {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: black;
+}
+
+.nav-count {
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-top: 40px;
+	left: -40px;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+.date, .location {
+	color: #999;
+}
+
+.result {
+	font-weight: bold;
+	color: blue;
+	margin-left: 10px;
+	margin-right: 10px;
+}
